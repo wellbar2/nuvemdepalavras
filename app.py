@@ -18,8 +18,8 @@ st.title("Gerar Nuvem de Palavras")
 st.markdown("Envie um arquivo `.txt` onde **cada linha é um termo**.")
 
 # Checkbox para aplicar lematização
-use_lemmatization = False
-#use_lemmatization = st.checkbox("Usar lematização nas palavras (Funciona melhor para inglês)", value=False)
+#use_lemmatization = False
+use_lemmatization = st.checkbox("Usar lematização nas palavras (Funciona melhor para inglês)", value=False)
 
 uploaded_file = st.file_uploader("Selecione o arquivo .txt", type="txt")
 
